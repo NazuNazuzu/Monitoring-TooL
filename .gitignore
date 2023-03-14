@@ -1,3 +1,4 @@
 .idea
 Monitoring-TooL.iml
 Pipfile
+resources/.env
