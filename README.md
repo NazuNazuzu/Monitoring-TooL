@@ -15,7 +15,7 @@ python v3.9+
 
 ### pyinstaller
 .specファイルを利用して詳細設定込みでexe化
-※別途pyinstallerのインストール、ビルドツールの制定が必要
+※別途pyinstallerのインストール、ビルドツールの設定が必要
 ````console:bash
 pyinstaller App.spec
 ````
