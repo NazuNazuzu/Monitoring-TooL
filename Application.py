@@ -194,7 +194,7 @@ class Application(tk.Frame):
             messagebox.showerror('ログインエラー', 'ログインに失敗しました。\nメールアドレスかパスワードが間違っています。')
             self._kill_threads()
 
-        self.driver.get('https://only-five.jp/')
+        self.driver.get(self.login_url)
 
         self.btnStartMonitoring['state'] = 'normal'
         self.btnDriverStart['text'] = 'ログイン済'
