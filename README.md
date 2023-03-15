@@ -19,9 +19,9 @@ python v3.9+
 ````console:bash
 pyinstaller App.spec
 ````
-※別途nuitkaのインストールが必要
 ### nuitka
 pyinstallerのビルドに問題があった場合はこっちで試す
+※別途nuitkaのインストールが必要
 ````console:bash
 nuitka --standalone --windows-disable-console --enable-plugin=tk-inter --include-package-data=cssutils --include-package-data=selenium Application.py
 ````
